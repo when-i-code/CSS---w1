@@ -10,6 +10,16 @@ a {
     text-decoration: none;
     color: aqua;
 }
+a:hover {
+    color: green;
+}
+a:active {
+    color: pink;
+}
+/*
+a:visited {
+    color: tomato;
+} */
 .container {
     width:80%;
     margin: auto;
@@ -49,6 +59,24 @@ a {
 
 .categories ul{
     padding: 0;
+    padding-left: 15px;
     list-style: none;
-    text-align: center;
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px purple;
+    list-style-image: url('./images/Untitled-1.jpg');
+}
+.form-group {
+    padding-bottom: 15px;
+
+}
+.my-form {
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
 }
